@@ -24,7 +24,7 @@ import java.net.URL;
 /**
  * created by Gaurav Tiwari
  * <p>
- * Voice class used to wrap all metadata of the com.se2automate.voice.clientresources.voice.
+ * Voice class used to wrap all metadata of the co.gauravtiwari.voice.clientresources.voice.
  */
 public class Voice {
 
@@ -45,8 +45,7 @@ public class Voice {
 
     /**
      * Constructor for Voice object.
-     *
-     * @param File - URL object
+     * @param filePath - voicefile path
      */
     public Voice(final File filePath) {
         //this.url = url;
@@ -56,16 +55,16 @@ public class Voice {
     /**
      * Constructor for Voice object.
      *
-     * @param text - text of the com.se2automate.voice.clientresources.voice
+     * @param text - text of the co.gauravtiwari.voice.clientresources.voice
      */
     public Voice(final String text) {
         this.text = text;
     }
 
     /**
-     * Constructor for Voice object.
-     *
-     * @param text - text of the com.se2automate.voice.clientresources.voice
+     * Constructor for voice object
+     * @param text - text to be convert
+     * @param language - preferred language
      */
     public Voice(final String text, final Language language) {
         this.text = text;
@@ -92,8 +91,7 @@ public class Voice {
 
     /**
      * Getter for text field.
-     *
-     * @return - text of the com.se2automate.voice.clientresources.voice
+     * @return String
      */
     public String getText() {
         return text;
@@ -102,7 +100,7 @@ public class Voice {
     /**
      * Setter for text field.
      *
-     * @param text - text of the com.se2automate.voice.clientresources.voice
+     * @param text - text of the co.gauravtiwari.voice.clientresources.voice
      */
     public void setText(final String text) {
         this.text = text;
@@ -111,7 +109,7 @@ public class Voice {
     /**
      * Getter for filename field.
      *
-     * @return - filename of the com.se2automate.voice.clientresources.voice
+     * @return - filename of the co.gauravtiwari.voice.clientresources.voice
      */
     public String getFilename() {
         return filename;
@@ -120,7 +118,7 @@ public class Voice {
     /**
      * Setter for filename field.
      *
-     * @param filename - filename of the com.se2automate.voice.clientresources.voice
+     * @param filename - filename of the co.gauravtiwari.voice.clientresources.voice
      */
     public void setFilename(final String filename) {
         this.filename = filename;
@@ -129,7 +127,7 @@ public class Voice {
     /**
      * Getter for voiceName field.
      *
-     * @return - voiceName of the com.se2automate.voice.clientresources.voice
+     * @return - voiceName of the co.gauravtiwari.voice.clientresources.voice
      */
     public String getVoiceName() {
         return voiceName;
@@ -138,7 +136,7 @@ public class Voice {
     /**
      * Setter for voiceName field.
      *
-     * @param voiceName - voiceName of the com.se2automate.voice.clientresources.voice
+     * @param voiceName - voiceName of the co.gauravtiwari.voice.clientresources.voice
      */
     public void setVoiceName(final String voiceName) {
         this.voiceName = voiceName;
@@ -147,7 +145,7 @@ public class Voice {
     /**
      * Getter for voiceLanguage field.
      *
-     * @return - voiceLanguage of the com.se2automate.voice.clientresources.voice
+     * @return - voiceLanguage of the co.gauravtiwari.voice.clientresources.voice
      */
     public Language getVoiceLanguage() {
         return language;
@@ -156,7 +154,7 @@ public class Voice {
     /**
      * Setter for voiceLanguage field.
      *
-     * @param language - voiceLanguage of the com.se2automate.voice.clientresources.voice
+     * @param language - voiceLanguage of the co.gauravtiwari.voice.clientresources.voice
      */
     public void setVoiceLanguage(final Language language) {
         this.language = language;

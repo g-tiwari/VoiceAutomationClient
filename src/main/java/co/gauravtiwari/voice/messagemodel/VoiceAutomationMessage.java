@@ -31,7 +31,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
  * <p>
  * status - status of the request, whether it succeeded or not [SUCCESS, FAIL]
  * message - contains the error message if the request failed
- * voiceFilePath - read in HTTP requests to play the com.se2automate.voice.clientresources.voice files
+ * voiceFilePath - read in HTTP requests to play the co.gauravtiwari.voice.clientresources.voice files
  * <p>
  * Setters and Getters are needed for jackson to serialize and
  * deserialize the object.
@@ -66,7 +66,7 @@ public class VoiceAutomationMessage {
      *
      * @param status        - status of the request
      * @param message       - the message
-     * @param voiceFilePath - filepath of the com.se2automate.voice.clientresources.voice
+     * @param voiceFilePath - filepath of the co.gauravtiwari.voice.clientresources.voice
      */
     public VoiceAutomationMessage(final VoiceAutomationMessageStatus status, final String message, final String voiceFilePath) {
         this(status, message);
@@ -121,7 +121,7 @@ public class VoiceAutomationMessage {
     /**
      * Setter for voiceFilePath field.
      *
-     * @param voiceFilePath - file paths or names to com.se2automate.voice.clientresources.voice files
+     * @param voiceFilePath - file paths or names to co.gauravtiwari.voice.clientresources.voice files
      */
     public void setVoiceFilePath(final String voiceFilePath) {
         this.voiceFilePath = voiceFilePath;

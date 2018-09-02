@@ -24,7 +24,7 @@ import java.io.IOException;
  */
 
 /**
- * Customized Exception thrown in com.se2automate.voice.clientresources.voice automation client operations.
+ * Customized Exception thrown in co.gauravtiwari.voice.clientresources.voice automation client operations.
  */
 public class ClientOperationException extends IOException {
 

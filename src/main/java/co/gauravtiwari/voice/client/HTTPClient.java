@@ -52,7 +52,7 @@ public class HTTPClient {
     /**
      * Send HTTP request to /load endpoint.
      *
-     * @param url - url of the com.se2automate.voice.clientresources.voice file to be included in JSON payload
+     * @param url - url of the co.gauravtiwari.voice.clientresources.voice file to be included in JSON payload
      * @return - response from server
      */
     public VoiceAutomationMessage load(final String url) {

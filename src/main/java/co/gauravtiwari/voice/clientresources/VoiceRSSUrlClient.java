@@ -38,17 +38,18 @@ public class VoiceRSSUrlClient {
 
     /**
      * Default constructor for VoiceRSSUrlClient.
+     * @param apiKey - VoiceRss key
      */
     public VoiceRSSUrlClient(String apiKey) {
         this.VOICERSS_APIKEY = apiKey;
     }
 
     /**
-     * Get com.se2automate.voice.clientresources.voice url from VOICE RSS service.
+     * Get co.gauravtiwari.voice.clientresources.voice url from VOICE RSS service.
      *
-     * @param text     - com.se2automate.voice.clientresources.voice text
-     * @param language - com.se2automate.voice.clientresources.voice language
-     * @return - com.se2automate.voice.clientresources.voice url
+     * @param text     - text
+     * @param language - language
+     * @return -  url
      * @throws ClientOperationException - exception thrown when communicating to Voice RSS service
      */
     public String getVoiceUrl(final String text, final Language language) throws ClientOperationException {

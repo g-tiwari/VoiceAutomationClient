@@ -28,20 +28,20 @@ import co.gauravtiwari.voice.clientresources.Voice;
 public interface VoiceAutomationClientModel {
 
     /**
-     * Call Voice automation server to load the com.se2automate.voice.clientresources.voice file. If url of the com.se2automate.voice.clientresources.voice object is not null,
+     * Call Voice automation server to load the co.gauravtiwari.voice.clientresources.voice file. If url of the co.gauravtiwari.voice.clientresources.voice object is not null,
      * send it to VoiceAutomation client;
      * else, first get url from Voice RSS service, then send it to VoiceAutomation client.
      *
-     * @param voice - com.se2automate.voice.clientresources.voice object includes metadata of the com.se2automate.voice.clientresources.voice
-     * @throws ClientOperationException - exception in loading com.se2automate.voice.clientresources.voice
+     * @param voice - co.gauravtiwari.voice.clientresources.voice object includes metadata of the co.gauravtiwari.voice.clientresources.voice
+     * @throws ClientOperationException - exception in loading co.gauravtiwari.voice.clientresources.voice
      */
     void load(final Voice voice) throws ClientOperationException;
 
     /**
-     * Request the server to play the com.se2automate.voice.clientresources.voice to device.
+     * Request the server to play the co.gauravtiwari.voice.clientresources.voice to device.
      *
-     * @param voice - com.se2automate.voice.clientresources.voice to play
-     * @throws ClientOperationException - exception in playing com.se2automate.voice.clientresources.voice
+     * @param voice - co.gauravtiwari.voice.clientresources.voice to play
+     * @throws ClientOperationException - exception in playing co.gauravtiwari.voice.clientresources.voice
      */
     void play(final Voice voice) throws ClientOperationException;
 
