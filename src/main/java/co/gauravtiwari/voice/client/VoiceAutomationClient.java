@@ -14,15 +14,15 @@
  limitations under the License.
  */
 
-package com.se2automate.voice.client;
+package co.gauravtiwari.voice.client;
 
-import com.se2automate.voice.clientresources.ClientOperationException;
-import com.se2automate.voice.clientresources.Voice;
-import com.se2automate.voice.clientresources.VoiceRSSUrlClient;
-import com.se2automate.voice.design.Language;
-import com.se2automate.voice.design.VoiceAutomationClientModel;
-import com.se2automate.voice.messagemodel.VoiceAutomationMessage;
-import com.se2automate.voice.messagemodel.VoiceAutomationMessageStatus;
+import co.gauravtiwari.voice.clientresources.VoiceRSSUrlClient;
+import co.gauravtiwari.voice.clientresources.ClientOperationException;
+import co.gauravtiwari.voice.clientresources.Voice;
+import co.gauravtiwari.voice.design.Language;
+import co.gauravtiwari.voice.design.VoiceAutomationClientModel;
+import co.gauravtiwari.voice.messagemodel.VoiceAutomationMessage;
+import co.gauravtiwari.voice.messagemodel.VoiceAutomationMessageStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -31,7 +31,7 @@ import java.net.URL;
 
 /**
  * created by Gaurav Tiwari
- * Voice Automation client used for com.se2automate.voice.clientresources.voice automation tests.
+ * Voice Automation client used for co.gauravtiwari.voice.clientresources.voice automation tests.
  */
 public class VoiceAutomationClient implements VoiceAutomationClientModel {
     private static final Logger LOG = LoggerFactory.getLogger(VoiceAutomationClient.class);
@@ -41,19 +41,19 @@ public class VoiceAutomationClient implements VoiceAutomationClientModel {
     /**
      * Constructor for VoiceAutomationClient.
      *
-     * @throws ClientOperationException - exception in instantiating com.se2automate.voice.clientresources.voice automation client
+     * @throws ClientOperationException - exception in instantiating co.gauravtiwari.voice.clientresources.voice automation client
      */
     public VoiceAutomationClient() throws ClientOperationException {
         String serverEndpoint = System.getProperty("VoiceAutomationServerEndpoint");
         if (null == serverEndpoint) {
-            throw new ClientOperationException("Please specify url of the com.se2automate.voice.clientresources.voice automation server by passing JVM argument 'VoiceAutomationServerEndpoint'.");
+            throw new ClientOperationException("Please specify url of the voice automation server by passing JVM argument 'VoiceAutomationServerEndpoint'.");
         }
         this.httpClient = new HTTPClient(serverEndpoint);
     }
 
     public void load(final Voice voice) throws ClientOperationException {
-        // If the com.se2automate.voice.clientresources.voice is instantiated from text, set its url first, then ask the server to load it.
-        // If the com.se2automate.voice.clientresources.voice is instantiated from url, directly ask the server to load it.
+        // If the co.gauravtiwari.voice.clientresources.voice is instantiated from text, set its url first, then ask the server to load it.
+        // If the co.gauravtiwari.voice.clientresources.voice is instantiated from url, directly ask the server to load it.
         VoiceAutomationMessage message;
         String voiceUrl;
 
@@ -84,12 +84,12 @@ public class VoiceAutomationClient implements VoiceAutomationClientModel {
                 throw new ClientOperationException("URL got from Voice RSS service is malformed.", e);
             }
 
-        } else {// com.se2automate.voice.clientresources.voice is instantiated from url
+        } else {// co.gauravtiwari.voice.clientresources.voice is instantiated from url
             voiceUrl = voice.getUrl().toString();
         }
 
         message = httpClient.load(voiceUrl);
-        LOG.info("com.se2automate.voice.clientresources.voice file path " + message.getVoiceFilePath());
+        LOG.info("co.gauravtiwari.voice.clientresources.voice file path " + message.getVoiceFilePath());
         if (message.getStatus() != VoiceAutomationMessageStatus.SUCCESS) {
             throw new ClientOperationException(message.getMessage());
         }

@@ -14,10 +14,10 @@
  limitations under the License.
  */
 
-package com.se2automate.voice.clientresources;
+package co.gauravtiwari.voice.clientresources;
 
-import com.se2automate.voice.client.LanguageUtils;
-import com.se2automate.voice.design.Language;
+import co.gauravtiwari.voice.client.LanguageUtils;
+import co.gauravtiwari.voice.design.Language;
 import org.apache.http.client.utils.URIBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

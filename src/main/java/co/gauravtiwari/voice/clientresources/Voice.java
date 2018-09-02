@@ -14,9 +14,9 @@
  limitations under the License.
  */
 
-package com.se2automate.voice.clientresources;
+package co.gauravtiwari.voice.clientresources;
 
-import com.se2automate.voice.design.Language;
+import co.gauravtiwari.voice.design.Language;
 
 import java.io.File;
 import java.net.URL;

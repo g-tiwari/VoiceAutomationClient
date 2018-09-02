@@ -14,10 +14,10 @@
  limitations under the License.
  */
 
-package com.se2automate.voice.client;
+package co.gauravtiwari.voice.client;
 
 
-import com.se2automate.voice.design.Language;
+import co.gauravtiwari.voice.design.Language;
 
 /**
  * created by Gaurav Tiwari

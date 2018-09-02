@@ -14,10 +14,10 @@
  limitations under the License.
  */
 
-package com.se2automate.voice.client;
+package co.gauravtiwari.voice.client;
 
 
-import com.se2automate.voice.messagemodel.VoiceAutomationMessage;
+import co.gauravtiwari.voice.messagemodel.VoiceAutomationMessage;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;

@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-package com.se2automate.voice.design;
+package co.gauravtiwari.voice.design;
 
 /**
  * created by Gaurav Tiwari

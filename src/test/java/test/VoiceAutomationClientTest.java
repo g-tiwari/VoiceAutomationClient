@@ -16,9 +16,9 @@
 package test;
 
 
-import com.se2automate.voice.client.VoiceAutomationClient;
-import com.se2automate.voice.clientresources.ClientOperationException;
-import com.se2automate.voice.clientresources.Voice;
+import co.gauravtiwari.voice.client.VoiceAutomationClient;
+import co.gauravtiwari.voice.clientresources.ClientOperationException;
+import co.gauravtiwari.voice.clientresources.Voice;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
