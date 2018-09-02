@@ -62,9 +62,9 @@ In order to use VoiceAutomationClient in a Maven project, you need to add the fo
 
 ```xml
 <dependency>
-    <groupId>com.se2automate.voice</groupId>
+    <groupId>co.gauravtiwari.voice</groupId>
     <artifactId>VoiceAutomationClient</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
@@ -89,12 +89,12 @@ public class VoiceTest {
 
         try {
             VoiceAutomationClient voiceAutomationClient = new VoiceAutomationClient();
-            voiceAutomationClient.load(com.se2automate.voice.clientresources.voice);
-            voiceAutomationClient.play(com.se2automate.voice.clientresources.voice);
-            LOG.info(com.se2automate.voice.clientresources.voice.getFilename());
-            LOG.info(com.se2automate.voice.clientresources.voice.getText());
-            LOG.info(com.se2automate.voice.clientresources.voice.getVoiceName());
-            LOG.info(com.se2automate.voice.clientresources.voice.getVoiceLanguage().toString());
+            voiceAutomationClient.load(voice);
+            voiceAutomationClient.play(voice);
+            LOG.info(voice.getFilename());
+            LOG.info(voice.getText());
+            LOG.info(voice.getVoiceName());
+            LOG.info(voice.getVoiceLanguage().toString());
         }catch (ClientOperationException e){
             e.printStackTrace();
         }catch (Exception ex){
