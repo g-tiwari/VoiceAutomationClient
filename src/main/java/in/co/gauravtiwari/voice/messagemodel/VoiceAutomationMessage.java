@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-package co.gauravtiwari.voice.messagemodel;
+package in.co.gauravtiwari.voice.messagemodel;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 

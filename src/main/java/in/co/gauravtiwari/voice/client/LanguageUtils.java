@@ -14,10 +14,10 @@
  limitations under the License.
  */
 
-package co.gauravtiwari.voice.client;
+package in.co.gauravtiwari.voice.client;
 
 
-import co.gauravtiwari.voice.design.Language;
+import in.co.gauravtiwari.voice.design.Language;
 
 /**
  * created by Gaurav Tiwari

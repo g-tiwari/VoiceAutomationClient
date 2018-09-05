@@ -14,15 +14,15 @@
  limitations under the License.
  */
 
-package co.gauravtiwari.voice.client;
+package in.co.gauravtiwari.voice.client;
 
-import co.gauravtiwari.voice.clientresources.VoiceRSSUrlClient;
-import co.gauravtiwari.voice.clientresources.ClientOperationException;
-import co.gauravtiwari.voice.clientresources.Voice;
-import co.gauravtiwari.voice.design.Language;
-import co.gauravtiwari.voice.design.VoiceAutomationClientModel;
-import co.gauravtiwari.voice.messagemodel.VoiceAutomationMessage;
-import co.gauravtiwari.voice.messagemodel.VoiceAutomationMessageStatus;
+import in.co.gauravtiwari.voice.clientresources.VoiceRSSUrlClient;
+import in.co.gauravtiwari.voice.clientresources.ClientOperationException;
+import in.co.gauravtiwari.voice.clientresources.Voice;
+import in.co.gauravtiwari.voice.design.Language;
+import in.co.gauravtiwari.voice.design.VoiceAutomationClientModel;
+import in.co.gauravtiwari.voice.messagemodel.VoiceAutomationMessage;
+import in.co.gauravtiwari.voice.messagemodel.VoiceAutomationMessageStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

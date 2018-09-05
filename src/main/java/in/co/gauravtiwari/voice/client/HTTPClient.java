@@ -14,10 +14,10 @@
  limitations under the License.
  */
 
-package co.gauravtiwari.voice.client;
+package in.co.gauravtiwari.voice.client;
 
 
-import co.gauravtiwari.voice.messagemodel.VoiceAutomationMessage;
+import in.co.gauravtiwari.voice.messagemodel.VoiceAutomationMessage;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;

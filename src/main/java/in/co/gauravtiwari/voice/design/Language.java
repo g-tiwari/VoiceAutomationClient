@@ -14,13 +14,38 @@
  limitations under the License.
  */
 
-package co.gauravtiwari.voice.messagemodel;
-
+package in.co.gauravtiwari.voice.design;
 
 /**
  * created by Gaurav Tiwari
- * Enum type for return status.
+ * enum to store all supported localizations
  */
-public enum VoiceAutomationMessageStatus {
-    SUCCESS, FAIL
+public enum Language {
+
+    CATALAN,
+    CHINESE_CHINA,
+    CHINESE_HONGKONG,
+    CHINESE_TAIWAN,
+    DANISH,
+    DUTCH,
+    ENGLISH_AUSTRALIA,
+    ENGLISH_CANADA,
+    ENGLISH_UK,
+    ENGLISH_INDIA,
+    ENGLISH_US,
+    FINNISH,
+    FRENCH_CANADA,
+    FRENCH_FRANCE,
+    GERMAN,
+    ITALIAN,
+    JAPANESE,
+    KOREAN,
+    NORWEGIAN,
+    POLISH,
+    PORTUGUESE_BRAZIL,
+    PORTUGUESE_PORTUGAL,
+    RUSSIAN,
+    SPANISH_MEXICO,
+    SPANISH_SPAIN,
+    SWEDISH_SWEDEN;
 }

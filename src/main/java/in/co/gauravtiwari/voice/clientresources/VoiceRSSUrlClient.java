@@ -14,10 +14,10 @@
  limitations under the License.
  */
 
-package co.gauravtiwari.voice.clientresources;
+package in.co.gauravtiwari.voice.clientresources;
 
-import co.gauravtiwari.voice.client.LanguageUtils;
-import co.gauravtiwari.voice.design.Language;
+import in.co.gauravtiwari.voice.client.LanguageUtils;
+import in.co.gauravtiwari.voice.design.Language;
 import org.apache.http.client.utils.URIBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

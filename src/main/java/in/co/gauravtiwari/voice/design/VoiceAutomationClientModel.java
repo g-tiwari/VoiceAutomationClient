@@ -14,11 +14,11 @@
  limitations under the License.
  */
 
-package co.gauravtiwari.voice.design;
+package in.co.gauravtiwari.voice.design;
 
 
-import co.gauravtiwari.voice.clientresources.ClientOperationException;
-import co.gauravtiwari.voice.clientresources.Voice;
+import in.co.gauravtiwari.voice.clientresources.ClientOperationException;
+import in.co.gauravtiwari.voice.clientresources.Voice;
 
 /**
  * created by Gaurav Tiwari

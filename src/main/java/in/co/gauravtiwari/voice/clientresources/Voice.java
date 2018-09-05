@@ -14,9 +14,9 @@
  limitations under the License.
  */
 
-package co.gauravtiwari.voice.clientresources;
+package in.co.gauravtiwari.voice.clientresources;
 
-import co.gauravtiwari.voice.design.Language;
+import in.co.gauravtiwari.voice.design.Language;
 
 import java.io.File;
 import java.net.URL;

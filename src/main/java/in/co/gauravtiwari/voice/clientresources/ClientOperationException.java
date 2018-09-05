@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-package co.gauravtiwari.voice.clientresources;
+package in.co.gauravtiwari.voice.clientresources;
 
 
 import java.io.IOException;
