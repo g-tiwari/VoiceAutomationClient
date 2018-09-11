@@ -62,7 +62,7 @@ In order to use VoiceAutomationClient in a Maven project, you need to add the fo
 
 ```xml
 <dependency>
-    <groupId>co.gauravtiwari.voice</groupId>
+    <groupId>in.co.gauravtiwari.voice</groupId>
     <artifactId>VoiceAutomationClient</artifactId>
     <version>1.0.0</version>
 </dependency>
