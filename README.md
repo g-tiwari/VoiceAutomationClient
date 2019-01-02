@@ -30,28 +30,32 @@ Then client send the request to play that file on the server
 ## Pre-requisite
 
 You have to use this library along with VoiceAutomationServer Standalone jar. 
-Download the Standalone jar from [VoiceAutomationServer-Jar](https://github.com/g-tiwari/VoiceAutomationServer/blob/master/VoiceAutomationServer-1.0.0.jar)
+Download the Standalone jar from [VoiceAutomationServer-Jar](https://github.com/g-tiwari/VoiceAutomationServer/blob/master/VoiceAutomationServer-1.0.1.jar )
 Then start the server from terminal by typing 
 ```bash
-java -jar VoiceAutomationServer-1.0.0.jar
+java -jar VoiceAutomationServer-1.0.1.jar
 ```
 
 After this you will see something similar to below - 
 
 ```bash
  INFO [main] (VoiceAutomationServer.java:119) - Initializing Voice Automation server
-Jul 15, 2018 11:50:50 PM com.sun.jersey.api.core.PackagesResourceConfig init
+Jan 03, 2019 2:17:24 AM com.sun.jersey.api.core.PackagesResourceConfig init
 INFO: Scanning for root resource and provider classes in the packages:
-  com.se2automate.voice.serverresources
-Jul 15, 2018 11:50:50 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+  in.co.gauravtiwari.voice.server.voice.serverresources
+Jan 03, 2019 2:17:24 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
 INFO: Root resource classes found:
-  class com.se2automate.voice.serverresources.VoiceAutomationServerAPI
-Jul 15, 2018 11:50:50 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+  class in.co.gauravtiwari.voice.server.voice.serverresources.VoiceAutomationServerAPI
+Jan 03, 2019 2:17:24 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
 INFO: Provider classes found:
-  class com.se2automate.voice.serverresources.JSONParseExceptionMapper
-Jul 15, 2018 11:50:50 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+  class in.co.gauravtiwari.voice.server.voice.serverresources.JSONParseExceptionMapper
+Jan 03, 2019 2:17:24 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
 INFO: Initiating Jersey application, version 'Jersey: 1.17 01/17/2013 03:31 PM'
- INFO [main] (VoiceAutomationServer.java:128) - Voice Automation server started at http://192.168.1.3:9090/
+Jan 03, 2019 2:17:25 AM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [192.168.1.6:9090]
+Jan 03, 2019 2:17:25 AM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+ INFO [main] (VoiceAutomationServer.java:128) - Voice Automation server started at http://192.168.1.6:9090/
 
 ```
 
